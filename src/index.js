@@ -14,7 +14,7 @@ function getAllPDFFiles(directory) {
         // const dynamicPath = dir.slice(39).replaceAll(/\\/g, '/');
         const replacePath = dir.replaceAll(/\\/g, '/');
         console.log('replacePath', replacePath)
-        const findPath = replacePath.lastIndexOf('/pdf');
+        const findPath = replacePath.lastIndexOf('pdf');
         console.log('findPath', findPath)
         const dynamicPath = replacePath.slice(findPath);
         console.log('dynamicPath', dynamicPath)
