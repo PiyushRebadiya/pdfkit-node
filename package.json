@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./src/index.js",
-    "test": "node ./build/bundle.js",
+    "test": "nodemon ./src/index.js",
     "build": "webpack"
   },
   "keywords": [],
@@ -23,6 +23,7 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "express": "^4.17.1",
+    "ngrok": "^5.0.0-beta.2",
     "path": "^0.12.7",
     "pdfkit": "^0.12.1"
   }
